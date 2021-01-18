@@ -52,3 +52,59 @@ cd $HOME
 ```
 cd ~
 ```
+
+# Linux - Part 2
+
+- To make a new dir:
+
+```
+mkdir test
+```
+
+```
+ls -laF
+```
+
+- To create a file:
+
+```
+touch text.txt
+```
+
+- To move or rename a file: eg. from current dir to test dir:
+
+```
+mv test.txt text
+```
+
+- To rename text file
+
+```
+mv text.txt text1.txt
+```
+
+```
+ls
+```
+
+- To copy the exact content of a file to another:
+
+```
+cp test1.txt text2.txt
+```
+
+- To copy Dir
+
+```
+cp -R
+```
+
+- To remove file
+
+```
+rm text2.txt
+```
+
+```
+rm -R test
+```
